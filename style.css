@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300;8..144,600;8..144,800&family=Roboto:wght@100&family=Source+Serif+Pro:wght@200;300;400;600;700;900&display=swap');
+
+*,
+::after,
+::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-button: #ea9788;
+    --button-hover: #e68a7a;
+    --main-color: #dc8b7c;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.title {
+    text-align: center;
+    color: var(--main-color);
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.block-btn {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.block-btn button {
+    width: 100%;
+    max-width: 100px;
+    margin: 10px 20px;
+    padding: 10px;
+    font-size: 16px;
+    color: var(--main-color);
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid var(--main-button);
+    transition: all .4s;
+}
+
+.block-btn button:hover {
+    background-color: var(--button-hover);
+    color: #fff;
+}
+
+.menuFoods {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menuBlock {
+    flex-basis: 25%;
+    padding: 15px 20px;
+    text-align: center;
+    margin-top: 20px;
+    min-width: 300px;
+}
+
+.menuBlock img {
+    width: 100%;
+    max-width: 250px;
+    height: 170px;
+}
+
+.titles h3 {
+    color: var(--main-color);
+    font-size: 23px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.titles .price {
+    color: rgb(242, 121, 121);
+    font-size: 20px;
+}
+
+.menuBlock .description {
+    margin-top: 10px;
+    color: rgb(47, 47, 47);
+    max-width: 250px;
+    margin: auto;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.active {
+    background-color: var(--button-hover);
+    color: #fff !important;
+}
