@@ -111,8 +111,6 @@ body {
 }
 
 @media only screen and (max-width:920px) {
-
-
     .menuBlock {
         flex-basis: 40%;
     }
@@ -129,7 +127,7 @@ body {
 @media only screen and (max-width:600px) {
     .menuBlock {
         flex-basis: 90%;
-        background-color: aquamarine;
+        border: 1px solid var(--main-color);
     }
 
     .menuBlock img {
