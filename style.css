@@ -23,7 +23,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1400px;
+    max-width: 1600px;
     margin: auto;
     padding: 20px 0;
 }
@@ -62,6 +62,8 @@ body {
 .menuFoods {
     display: flex;
     flex-wrap: wrap;
+    max-width: 1400px;
+    margin: auto;
 }
 
 .menuBlock {

@@ -106,6 +106,9 @@ function render(ojbs) {
 
 btns.forEach(function (btn) {
   btn.addEventListener("click", function () {
+    $(".btn.active").classList.remove("active");
+    this.classList.add("active");
+
     const categorys = this.getAttribute("data-category");
     if (categorys == "all") {
       render(menus);
