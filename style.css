@@ -103,3 +103,36 @@ body {
     background-color: var(--button-hover);
     color: #fff !important;
 }
+
+@media only screen and (max-width:1216px) {
+    .menuFoods {
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width:920px) {
+
+
+    .menuBlock {
+        flex-basis: 40%;
+    }
+
+    .menuBlock img {
+        max-width: 400px;
+    }
+
+    .menuBlock .description {
+        max-width: 400px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .menuBlock {
+        flex-basis: 90%;
+        background-color: aquamarine;
+    }
+
+    .menuBlock img {
+        height: 250px;
+    }
+}
